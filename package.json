@@ -1,0 +1,24 @@
+{
+  "name": "api-tareas",
+  "version": "1.0.0",
+  "description": "API RESTful de tareas internas del equipo de Nodo Sur Soluciones Digitales, con Node.js, Express.js, archivos JSON y autenticación con JWT.",
+  "main": "server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20.6"
+  },
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "dev": "node --watch --env-file=.env server.js",
+    "debug": "node --inspect --env-file=.env server.js",
+    "test": "node --test"
+  },
+  "author": "Alexis Ayala",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "body-parser": "^2.4.0",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
