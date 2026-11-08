@@ -4,6 +4,8 @@ API RESTful hecha con Node.js y Express.js para gestionar las tareas internas de
 Las tareas se guardan en `tareas.json` y los usuarios en `usuarios.json` (ambos con `fs.promises`).
 Las rutas de tareas están protegidas con JSON Web Token (JWT) y las contraseñas se cifran con bcryptjs.
 
+Repositorio: https://github.com/alexayalaj/api-tareas
+
 ## Requisitos
 
 - Node.js 20.6 o superior (se usa `--env-file`, nativo de Node, sin `dotenv`).
