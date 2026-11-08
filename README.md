@@ -6,6 +6,8 @@ Las rutas de tareas están protegidas con JSON Web Token (JWT) y las contraseña
 
 Repositorio: https://github.com/alexayalaj/api-tareas
 
+Video demostrativo: https://youtu.be/jo2LnrQxeFs
+
 ## Requisitos
 
 - Node.js 20.6 o superior (se usa `--env-file`, nativo de Node, sin `dotenv`).
